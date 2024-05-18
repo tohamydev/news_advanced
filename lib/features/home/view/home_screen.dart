@@ -33,12 +33,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 centerTitle: false,
                 actions: [
-                  IconButton(
-                    icon: const Icon(CupertinoIcons.search),
-                    onPressed: () {
-                      context.read<HomeCubit>().getTopHeadlines();
-                    },
-                  ),
+                
                 ],
               ),
               body: state is Loaded
