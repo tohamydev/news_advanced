@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 centerTitle: false,
                 actions: [
-                
+                // add auth login button
                 ],
               ),
               body: state is Loaded
