@@ -11,7 +11,7 @@ import 'package:retrofit/retrofit.dart';
 
 part 'api_services.g.dart';
 
-
+ ///
 @RestApi(baseUrl: EndPoints.baseUrl)
 abstract class ApiServices{
 
@@ -22,6 +22,9 @@ abstract class ApiServices{
 
   @POST(EndPoints.topHeadLines)
   Future<TopHeadlinesResponse> postTopHeadlines(@Body() PostDataRequestBody body , @Header('Authorization') String token);
+
+
+
 
 
 }

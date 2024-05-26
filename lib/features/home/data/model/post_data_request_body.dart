@@ -5,7 +5,7 @@ part 'post_data_request_body.g.dart';
 
 @JsonSerializable()
 class PostDataRequestBody {
-  @JsonKey(name: 'email')
+  @JsonKey(name: 'emaile')
   final String email;
   @JsonKey(name: 'password')
   final String password;
