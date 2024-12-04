@@ -8,7 +8,7 @@ part of 'post_data_request_body.dart';
 
 PostDataRequestBody _$PostDataRequestBodyFromJson(Map<String, dynamic> json) =>
     PostDataRequestBody(
-      email: json['email'] as String,
+      email: json['emaile'] as String,
       password: json['password'] as String,
       name: json['name'] as String,
     );
@@ -16,7 +16,7 @@ PostDataRequestBody _$PostDataRequestBodyFromJson(Map<String, dynamic> json) =>
 Map<String, dynamic> _$PostDataRequestBodyToJson(
         PostDataRequestBody instance) =>
     <String, dynamic>{
-      'email': instance.email,
+      'emaile': instance.email,
       'password': instance.password,
       'name': instance.name,
     };
